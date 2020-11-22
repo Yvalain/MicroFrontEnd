@@ -13,7 +13,8 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|woff|svg|eot|ttf)$/i,
         use: [
-          { loader: 'file-loader' }]
+          { loader: 'file-loader' }
+        ]
       },
       {
         test: /\.vue$/,
